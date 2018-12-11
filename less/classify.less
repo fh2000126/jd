@@ -1,0 +1,109 @@
+@import "base.css";
+body {
+    height: 100vh;
+}
+
+#header {
+    background-color: #cca;
+    border-bottom: 1px solid red;
+    .logo {
+        background: url(../images/sprites.png) -0.2rem 0;
+    
+        width: 0.4rem;
+        height: 0.4rem;
+        padding: 0.06rem 0.1rem;
+        background-size: 2rem 2rem;
+        background-origin: content-box;
+        background-clip: content-box;
+    }
+    .login {
+        background: url(../images/sprites.png) -0.6rem 0;
+        ;
+        width: 0.4rem;
+        height: 0.4rem;
+        padding: 0.06rem 0.1rem;
+        background-size: 2rem 2rem;
+        background-origin: content-box;
+        background-clip: content-box;
+    }
+}
+
+#main {
+    display: flex;
+    padding-top: 0.45rem;
+    padding-bottom: 0.5rem;
+    height: 100%;
+    .left {
+        height: 100%;
+        .swiper-container {
+            height: 100%;
+            .swiper-wrapper {
+                height: 100%;
+                .swiper-slide {
+                    height: auto;
+                    ul {
+                        li {
+                            width: 0.85rem;
+                            height: 0.46rem;
+                            background-color: #ccc;
+                            &.active {
+                                background-color: #fff;
+                            }
+                            a {
+                                display: block;
+                                text-align: center;
+                                line-height: 0.46rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+.right {
+     
+    flex: 1;
+    padding: 0.15rem;
+    .swiper-container {
+        height: 100%;
+        .swiper-wrapper {
+            height: 100%;
+            .swiper-slide {
+                height: auto;
+                .classify {
+                    margin-bottom: 0.2rem;
+                    h4 {
+                        line-height: 0.2rem;
+                        height: 0.2rem;
+                        padding-left: 0.2rem;
+                    }
+                    .concent {
+                        ul {
+                            display: flex;
+                            flex-wrap: wrap;
+                            li {
+                                width: 33.33%;
+                                a {
+                                    display: block;
+                                    text-align: center;
+                                    img {
+                                       width: 0.7rem;
+                                       height: 0.7rem;
+                                    }
+                                    span{
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+}

@@ -1,0 +1,96 @@
+@import "base.css";
+body {
+  height: 100vh;
+}
+#header {
+  background-color: #cca;
+  border-bottom: 1px solid red;
+}
+#header .logo {
+  background: url(../images/sprites.png) -0.2rem 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  padding: 0.06rem 0.1rem;
+  background-size: 2rem 2rem;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+#header .login {
+  background: url(../images/sprites.png) -0.6rem 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  padding: 0.06rem 0.1rem;
+  background-size: 2rem 2rem;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+#main {
+  display: flex;
+  padding-top: 0.45rem;
+  padding-bottom: 0.5rem;
+  height: 100%;
+}
+#main .left {
+  height: 100%;
+}
+#main .left .swiper-container {
+  height: 100%;
+}
+#main .left .swiper-container .swiper-wrapper {
+  height: 100%;
+}
+#main .left .swiper-container .swiper-wrapper .swiper-slide {
+  height: auto;
+}
+#main .left .swiper-container .swiper-wrapper .swiper-slide ul li {
+  width: 0.85rem;
+  height: 0.46rem;
+  background-color: #ccc;
+}
+#main .left .swiper-container .swiper-wrapper .swiper-slide ul li.active {
+  background-color: #fff;
+}
+#main .left .swiper-container .swiper-wrapper .swiper-slide ul li a {
+  display: block;
+  text-align: center;
+  line-height: 0.46rem;
+}
+#main .right {
+  flex: 1;
+  padding: 0.15rem;
+}
+#main .right .swiper-container {
+  height: 100%;
+}
+#main .right .swiper-container .swiper-wrapper {
+  height: 100%;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide {
+  height: auto;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide .classify {
+  margin-bottom: 0.2rem;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide .classify h4 {
+  line-height: 0.2rem;
+  height: 0.2rem;
+  padding-left: 0.2rem;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide .classify .concent ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide .classify .concent ul li {
+  width: 33.33%;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide .classify .concent ul li a {
+  display: block;
+  text-align: center;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide .classify .concent ul li a img {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+#main .right .swiper-container .swiper-wrapper .swiper-slide .classify .concent ul li a span {
+  display: block;
+}

@@ -1,0 +1,120 @@
+@import "base.less";
+
+
+#silde {
+    img {
+        width: 100%;
+    }
+}
+
+#nav {
+    padding: 0.3rem 0;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 25%;
+            a {
+                font-size: 0.14rem;
+                display: block;
+                text-align: center;
+                img {
+                    width: 0.4rem;
+                }
+                p {
+                    font-size: 0.12rem;
+                    margin: 0.1rem 0;
+                }
+            }
+        }
+    }
+}
+
+#main {
+    margin-bottom: 0.7rem;
+
+    .product {
+        .seckill {
+            box-shadow: 0 0 0.02rem #ccc;
+            padding: 0.1rem 0;
+            .title {
+                position: relative;
+                display: flex;
+                padding: 0.1rem 0;
+                img {
+                    width: 0.2rem;
+                    height: 0.25rem;
+                    margin-left: 0.14rem;
+                }
+                >span {
+                    color: red;
+                    margin-left: 0.14rem;
+                }
+                .time {
+                    margin-left: 0.1rem;
+                    >span:not(:nth-child(3n)) {
+                        background-color: #000;
+                        height: 0.1rem;
+                        width: 0.1rem;
+                        text-align: center;
+                        line-height: 0.1rem;
+                        color: #fff;
+                    }
+                }
+                .more {
+                    position: absolute;
+                    right: 0.1rem;
+                }
+            }
+            .content {
+                ul {
+                    display: flex;
+                    li {
+                        width: 33.33vw;
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .chaoshi {
+            margin-top: 0.1rem;
+            position: relative;
+            .name {
+                padding: 0.1rem 0;
+                i {
+                    position: absolute;
+                    height: 0.16rem;
+                    width: 0.02rem;
+                    background-color: red;
+                    left: 0.15rem;
+                    top: 0.15rem;
+                }
+                span {
+                    padding-left: 0.2rem;
+                }
+            }
+            .commodity {
+                display: flex;
+                div {
+                    width: 50%;
+                    a {
+                        width: 100%;
+                        display: block;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
